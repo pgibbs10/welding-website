@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  get 'pages/home'
 
-  get 'pages/about'
+  get 'about', to: 'pages#about'
 
-  get 'pages/services'
+  get 'services', to: 'pages#services'
 
-  get 'pages/gallery'
+  get 'gallery', to: 'pages#gallery'
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root to: 'pages#home'
+
 end
