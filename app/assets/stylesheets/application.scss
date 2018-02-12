@@ -1,2 +1,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+$main-bg-color: #604545;
+$main-text-color: #1c1919;
+$secondary-text-color: #f6f6f6;
+
+body {
+	background-color: $main-bg-color;
+}
+
+.home-text{
+	color: $main-text-color;
+}
