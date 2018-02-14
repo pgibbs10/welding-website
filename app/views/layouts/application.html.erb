@@ -12,7 +12,17 @@
     <meta name = "keywords" content = "<%= @seo_keywords %>" />
   </head>
 
+  <header>
+    <%= render "shared/nav"%>
+  </header>
+
   <body>
+    
     <%= yield %>
+    
   </body>
+
+  <footer>
+    <%= render "shared/footer"%>
+  </footer>
 </html>
