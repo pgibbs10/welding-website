@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>WeldingWebsite</title>
+    <title>Bearded Anvil</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <%= favicon_link_tag 'favicon-32x32.png' %>
+
+    <meta name = "keywords" content = "<%= @seo_keywords %>" />
   </head>
 
+  <header>
+    <%= render "shared/nav"%>
+  </header>
+
   <body>
+    
     <%= yield %>
+    
   </body>
+
+  <footer class = "footy">
+    <%= render "shared/footer"%>
+  </footer>
 </html>

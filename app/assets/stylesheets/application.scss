@@ -1,0 +1,61 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+
+$main-bg-color: #604545;
+$main-text-color: #1c1919;
+$secondary-text-color: #f6f6f6;
+
+body {
+	background-color: $main-bg-color;
+}
+
+.home-text{
+	color: $main-text-color;
+}
+
+.google-map{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.google-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.quote-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-container {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.footy {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3a3a3a;
+    color: #f6f6f6;
+    text-align: center;
+}

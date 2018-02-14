@@ -1,0 +1,31 @@
+<nav class="navbar navbar-default navbar-inverse" role="navigation">
+	<div class="navbar-header">	 
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="/">Bearded Anvil Enterprises</a>
+
+		<!-- <a class="navbar-brand"><%= image_tag "bae_logo.png", width: 48, alt: "Bearded Anvil Enterprises logo", class: 'logo-img' %></a> -->
+	</div>
+	
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav navbar-right active">
+			<li class = "<%= active?(root_path) %>">
+				<a href="/">Home</a>
+			</li>
+			<li class = "<%= active?(about_path) %>">
+				<a href="/about">About</a>
+			</li>
+			<li class = "<%= active?(services_path) %>">
+				<a href="/services">Services</a>
+			</li>
+			<li class = "<%= active?(gallery_path) %>">
+				<a href="/gallery">Gallery</a>
+			</li>
+			<li class = "<%= active?(contact_path) %>">
+				<a href="/contact">Contact</a>
+			</li>
+		</ul>
+	</div>
+
+</nav>
