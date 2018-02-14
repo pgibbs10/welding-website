@@ -1,9 +1,21 @@
 <div class="container-fluid">
+	<%= render "shared/nav"%>
 	<div class="row">
-		<div class="col-md-12">
-			<%= render "shared/nav"%>
+		<div class="col-md-7">
+			<div class = "well">
 
-			<h1>About Us</h1>
+				<h1 class = "text-center">About Us</h1>
+
+				<p>
+					Welders with a passion. Founded 2018 by Jake Clement. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
+
+		<div class="col-md-5">
+			<div class = "well text-center">
+				<%= image_tag "bae_logo.png", width: 300, alt: "Bearded Anvil Enterprises logo", class: 'logo-img' %>
+			</div>
 		</div>
 	</div>
 </div>
