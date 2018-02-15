@@ -1,0 +1,4 @@
+[]-Update all the information for the pages
+[]-Either create an upload system for the gallery in the web browser or tie it to the company's instagram
+[]-Create a contact form in the contact page to so that they can email directly from the website
+[]-Update the styles on the website (fonts, colors)

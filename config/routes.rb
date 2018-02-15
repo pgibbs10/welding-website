@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
   get 'contact', to: 'pages#contact'
 
+  get 'contacts', to: 'pages#contact'
+
   root to: 'pages#home'
 
 end
