@@ -1,7 +1,6 @@
 <%= form_for @contact do |f| %>
   <%= f.label :email, "Email Address" %> <br>
   <%= f.text_field :email, required: true, placeholder: "Enter Email", class: "form-control" %>
-
   <br>
 
   <%= f.label :name, "Full Name" %> <br>
@@ -24,5 +23,5 @@
     <%= f.text_field :nickname, hint: "leave this field blank" %>
   </div>
 
-  <%= f.submit 'Send Message', class: "btn btn-primary" %>
+  <%= f.submit 'Send Email', class: "btn btn-primary" %>
 <% end %>
