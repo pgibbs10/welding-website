@@ -1,6 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+@import "magnific-popup";
+
 
 $main-bg-color: #111111;
 $secondary-bg-color: #DAA520;
@@ -90,6 +92,10 @@ hr {
 
 .home-text{
 	color: $main-text-color;
+}
+
+.instaimg img {
+    margin-bottom: 30px;
 }
 
 .google-map{
