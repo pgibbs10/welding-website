@@ -90,9 +90,38 @@ hr {
     border-color: $main-bg-color;
 }
 
-.home-text{
-	color: $main-text-color;
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  top: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -100;
 }
+
+/* These just style the content */
+article {
+/*  just a fancy border  */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  margin: 10px;
+}
+
+.home-bg {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  font-size: 5vw;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  text-align: center;
+}
+
 
 .instaimg img {
     margin-bottom: 30px;
