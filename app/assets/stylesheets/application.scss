@@ -106,9 +106,12 @@ hr {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
+  filter: brightness(60%);
 }
 
 .home-bg {
+  outline: solid;
+  outline-offset: -10px;
   position: absolute;
   top: 40%;
   width: 100%;
