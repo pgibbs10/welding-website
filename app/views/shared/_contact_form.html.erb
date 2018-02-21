@@ -8,7 +8,7 @@
   <br>
 
   <%= f.label :name, "Full Name" %> <br>
-  <%= f.text_field :name, required: true, placeholder: "Enter Name", class: "form-control" %>
+  <%= f.text_field :name, required: "required", placeholder: "Enter Name", class: "form-control" %>
 
   <br>
 
@@ -26,6 +26,8 @@
     <%= f.label :nickname %> <br>
     <%= f.text_field :nickname, hint: "leave this field blank" %>
   </div>
+
+  <p><small><em>*All fields are required</em></small></p>
 
   <%= f.submit 'Send Email', class: "btn btn-primary" %>
 <% end %>

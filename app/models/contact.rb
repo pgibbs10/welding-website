@@ -1,5 +1,5 @@
 class Contact < MailForm::Base
-	attribute :name, :validate => true
+	attribute :name, :validate => true, :presence => true
 	attribute :email, :validate => true
 	attribute :phone, :validate => true
 	attribute :topic, :validate => true
