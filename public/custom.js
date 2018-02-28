@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     var userFeed = new Instafeed({
         get: 'user',
-        userId: '2908155155',
+        userId: '3011740738',
         limit: 12,
         resolution: 'standard_resolution',
         accessToken: '2908155155.1677ed0.b384248174fd4b6a915a8df2abc63845',

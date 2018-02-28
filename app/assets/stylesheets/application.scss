@@ -20,7 +20,14 @@ body {
 
 .well{
     background-color: $secondary-bg-color;
-    border-color: $main-bg-color;
+    border-color: $secondary-bg-color;
+    border-width: 10px;
+}
+
+.well .long-p{
+    background-color: $secondary-text-color;
+    border-color: $secondary-bg-color;
+    border-width: 10px;
 }
 
 .navbar-default {
