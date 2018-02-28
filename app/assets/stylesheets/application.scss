@@ -7,7 +7,7 @@
 $main-bg-color: #111111;
 $secondary-bg-color: #FFDE10;
 $main-text-color: #1c1919;
-$secondary-text-color: #f6f6f6;
+$secondary-text-color: #e2e0d5;
 
 body {
 	background-color: $main-bg-color;.
@@ -19,15 +19,9 @@ body {
 }
 
 .well{
-    background-color: $secondary-bg-color;
-    border-color: $secondary-bg-color;
-    border-width: 10px;
-}
-
-.well .long-p{
     background-color: $secondary-text-color;
-    border-color: $secondary-bg-color;
-    border-width: 10px;
+    border-color: $main-bg-color;
+    border-width: 3px;
 }
 
 .navbar-default {
