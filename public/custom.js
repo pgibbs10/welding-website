@@ -6,9 +6,9 @@ $(document).ready(function() {
         userId: '3011740738',
         limit: 12,
         resolution: 'standard_resolution',
-        accessToken: '2908155155.1677ed0.b384248174fd4b6a915a8df2abc63845',
+        accessToken: '3011740738.1677ed0.ab1f22b381454ec59862c4ed168c13c2',
         sortBy: 'most-recent',
-        template: '<div class="col-lg-4 gallery instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+        template: '<div class="col-lg-4 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
     });
 
 
