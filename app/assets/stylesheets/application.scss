@@ -6,8 +6,9 @@
 
 $main-bg-color: #111111;
 $secondary-bg-color: #FFDE10;
+$well-color: #e2e0d5;
 $main-text-color: #1c1919;
-$secondary-text-color: #e2e0d5;
+$secondary-text-color: #ffffff;
 
 body {
 	background-color: $main-bg-color;.
@@ -19,8 +20,7 @@ body {
 }
 
 .well{
-    background-color: $secondary-text-color;
-    border-color: $main-bg-color;
+    background-color: $well-color;
     border-width: 3px;
 }
 
@@ -126,7 +126,8 @@ hr {
 }
 
 .prof-img {
-  border-radius: 50%;
+  width: 100%;
+  height: 100%
 }
 
 .instaimg img {
